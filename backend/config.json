@@ -1,0 +1,28 @@
+{
+    "db": {
+        "url": "http://127.0.0.1",
+        "username": "elenakoceska",
+        "password": "Elena123_",
+        "dbname": "Ticket_Blaster"
+    },
+    "security": {
+        "jwt_secret": "secret"
+    },
+    "services": {
+        "storage": {
+            "port": 10001
+        },
+        "auth": {
+            "port": 10002
+        },
+        "users": {
+            "port": 10003
+        },
+        "events": {
+            "port": 10004
+        },
+        "proxy": {
+            "port": 10010
+        }
+    }
+}
